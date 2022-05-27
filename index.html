@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build_18_5_New_Build.loader.js";
+      var loaderUrl = buildUrl + "/a build that might work, lets see.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build_18_5_New_Build.data",
-        frameworkUrl: buildUrl + "/Build_18_5_New_Build.framework.js",
-        codeUrl: buildUrl + "/Build_18_5_New_Build.wasm",
+        dataUrl: buildUrl + "/a build that might work, lets see.data.unityweb",
+        frameworkUrl: buildUrl + "/a build that might work, lets see.framework.js.unityweb",
+        codeUrl: buildUrl + "/a build that might work, lets see.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Ammachi Labs",
         productName: "Amrita eSkill Lab",
-        productVersion: "18/5 Internal",
+        productVersion: "25/5 Internal",
         showBanner: unityShowBanner,
       };
 
@@ -99,6 +99,7 @@
         canvas.style.height = "600px";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/a build that might work, lets see.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
