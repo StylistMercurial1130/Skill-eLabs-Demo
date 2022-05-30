@@ -28,6 +28,15 @@
     font-size: 200%;
     font-weight: bold;
   }
+  .disclaimer{
+    position: fixed;
+    left: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
 
   /*
   <div class = "logos">
